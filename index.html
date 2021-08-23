@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="https://platform.linkedin.com/badges/js/profile.js" type="text/javascript"></script>
     <script defer src="index.js" ></script>
     <title>Eli Burch</title>
 </head>
-<body style="padding: 3%" class='bg-light'>
+<body style="padding: 3%; max-width: 1000px; margin: auto" class='bg-light'>
     <div style="display: flex" class="mb-3 p-3 bg-primary">
-        <img src='eli-burch.bmp' alt='Eli Burch' style="max-width: 10%; border-radius: 100%">
+        <img src='eli-burch.bmp' alt='Eli Burch' style="border-radius: 100%" width="100" height="100">
         <div class="ms-3"> 
             <h1>Eli Burch</h1>
             <h3>Security Researcher</h3>
@@ -27,7 +30,10 @@
                     <a id='prevwork' class='nav-link' onclick='switchContent("prevwork")' href='#'>Previous Work</a>
                 </li>
                 <li class='nav-item'>
-                    <a class='nav-link' href='EliBurch2021.pdf'>Resume</a>
+                    <a id='projects' class='nav-link' onclick='switchContent("projects")' href='#'>Projects</a>
+                </li>
+                <li class='nav-item'>
+                    <a id='resume' class='nav-link' onclick='switchContent("resume")' href='#'>Resume</a>
                 </li>
                 <li class='nav-item'>
                     <a id='contact' class='nav-link' onclick='switchContent("contact")' href='#'>Contact</a>
@@ -35,14 +41,6 @@
             </ul>
         </div>
     </nav>
-    <section id='content'>
-        <p>
-            Hi! My name is Eli Burch, and welcome to my portfolio!
-            <br>
-            I am a Computer Science student in my Junior year, and after much internal debate, I have decided to focus on Cybersecurity. I have experience writing code in C/C++, Java, Python, and Javascript. Outside of school, I have been working through the challenge boxes on HacktheBox using Kali Linux. In this process, I have learned to use tools such as BurpSuite, Nmap, Gobuster, Hashcat, John the Ripper, etc. My professional goal is to get a job as a Network Security Engineer, or a Security Researcher. 
-            <br>
-            Outside of my professional life, I work as a Produce Clerk at Fred Meyer and enjoy listening to podcasts, such as Hello Internet and Darknet Diaries. In the past, I have enjoyed reading, but I don't get a chance to do that too much anymore.
-        </p>
-    </section>
+    <section id='content'></section>
 </body>
 </html>
