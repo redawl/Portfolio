@@ -18,3 +18,7 @@ header{
 .input-elem{
     float: right; 
 }
+
+a{
+    text-decoration: none;
+}
