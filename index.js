@@ -71,7 +71,7 @@ content = {
     },
     resume: () => {
         $('#content').empty().css({display : ""})
-        .append('<embed src="eliburch2021.pdf" type="application/pdf" width="100%" height="600px" />');
+        .append('<embed src="EliBurch2021.pdf" type="application/pdf" width="100%" height="600px" />');
     },
     contact: () => { 
         $('#content').empty().css({display : ""})
