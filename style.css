@@ -2,3 +2,7 @@
     min-width: 300px;
     flex-grow: 1;
 }
+
+.input-elem{
+    float: right; 
+}
