@@ -23,7 +23,21 @@ content = {
     },
     prevwork: () => {
         $('#content').empty().css({display : ""})
-        .append('<p>Placeholder</p>');
+        .append('<div id="CAT" class="card p-5 mt-3"></div>');
+        $('#CAT')
+        .append('<h4>Computer Action Team @PSU</h4>' + 
+                '<h6>IT/Support Specialist - September 2020 - Present</h6>' +
+                '<ul>' +
+                    '<li>' +
+                        '<p>Assisted Engineering faculty and students with issues related to the Linux and Windows servers, and other resources.</p>' +
+                    '</li>' +
+                    '<li>' +
+                        '<p>Implemented a webform in PHP and HTML for students to fill out when they accidentally delete files.</p>' +
+                    '</li>' +
+                    '<li>' +
+                        '<p>Wrote Networking documentation to help students learn about the OSI layers.</p>'
+
+        )
     },
     projects: () => {
         $('#content').empty().css({display : ""})
