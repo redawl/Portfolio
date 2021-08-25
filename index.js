@@ -82,18 +82,16 @@ content = {
         .append('<form action="" class="contact-card card p-5 mt-3">' +
                     '<h4>Contact Form</h4>' +
                     '<div class="py-3">' +
-                        '<label for="name">Name:</label>' +
-                        '<input type="text" id="name" name="name" class="ms-4 input-elem"/>' +
+                        '<label for="name" class="form-label">Name:</label>' +
+                        '<input type="text" id="name" name="name" class="form-control"/>' +
                     '</div>' +
-                    '<br />' +
                     '<div class="py-3">'  + 
-                        '<label for="email">Email:</label>' +
-                        '<input type="email" id="email" name="email" class="ms-4 input-elem"/>' +
+                        '<label for="email" class="form-label">Email:</label>' +
+                        '<input type="email" id="email" name="email" class="form-control"/>' +
                     '</div>' +
-                    '<br />' +
                     '<div class="py-3">' +
-                        '<label for="message">Message:</label>' +
-                        '<textarea id="message" name="message" class="ms-4 input-elem"></textarea>' +
+                        '<label for="message" class="form-label">Message:</label>' +
+                        '<textarea id="message" name="message" class="form-control"></textarea>' +
                     '</div>' +
                     '<input type="submit" value="Submit" class="btn btn-primary"/>' +
                     '</div>' +

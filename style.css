@@ -1,3 +1,15 @@
+body{
+    padding: 3%; 
+    max-width: 1000px; 
+    margin: auto; 
+    background-color: #3921b3
+}
+
+header{
+    display: flex;
+    background-color: #5073d9;
+}
+
 .contact-card{
     min-width: 300px;
     flex-grow: 1;
