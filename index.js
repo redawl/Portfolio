@@ -36,7 +36,8 @@ content = {
                     '</li>' +
                     '<li>' +
                         '<p>Wrote Networking documentation to help students learn about the OSI layers.</p>'
-
+                    '</li>' +
+                '</ul>'
         )
     },
     projects: () => {
