@@ -35,7 +35,7 @@ content = {
                         '<p>Implemented a webform in PHP and HTML for students to fill out when they accidentally delete files.</p>' +
                     '</li>' +
                     '<li>' +
-                        '<p>Wrote Networking documentation to help students learn about the OSI layers.</p>'
+                        '<p>Wrote Networking documentation to help students learn about the OSI layers.</p>' + 
                     '</li>' +
                 '</ul>'
         )
